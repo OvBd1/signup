@@ -48,13 +48,11 @@ if (isset($_POST['submit'])) {
 
     // 5) N'oubliez pas dr créer la table users en BDD 
 
-
   } else {
     $error = "Veuillez remplir tous les champs !";
   }
 }
 ?>
-
 
 <!-- Formulaire de signup ici  -->
 <form class="space-y-6" method="POST">
